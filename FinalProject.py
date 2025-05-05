@@ -1,6 +1,6 @@
 """Class: CS230--Section 3 
 Name: Sarah Tran
-Description: (Give a brief description for Exercise name--See below)
+Description: McDonald's Review
 I pledge that I have completed the programming assignment independently. 
 I have not copied the code from a student or any source.
 I have not given my code to any student. """
@@ -13,8 +13,8 @@ import seaborn as sns
 import mapbox as mb
 from wordcloud import WordCloud, STOPWORDS
 
-DATA_FILE = 'Newfolder/McDonald_s_Reviews.csv'
-BANNER = "C:/Users/sarah/Downloads/CS 230 Website Banner.png"
+DATA_FILE = 'McDonald_s_Reviews.csv'
+BANNER = "CS 230 Website Banner.png"
 @st.cache_data
 
 # [DA1] Clean and load data
